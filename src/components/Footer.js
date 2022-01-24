@@ -5,7 +5,7 @@ function Footer() {
         <div className="Footer">
             <a
                 className="Footer-icon"
-                href="https://www.instagram.com/dunyazatde/"
+                href="https://www.instagram.com/cmimiu/"
                 type="button"
             >
                 <FontAwesomeIcon icon={["fab", "instagram-square"]} size="2x"/>
