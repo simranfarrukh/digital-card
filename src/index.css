@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lora&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lora', serif;
+  background-color: floralwhite;
+}
+
+.App-container {
+  color: black;
+  background-color: blanchedalmond;
+  margin: 30px auto 30px;
+  width: 317px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Info-header > img {
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+}
+
+.Info-name {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 30px;
+  color: darkslateblue;
+}
+
+.Info-role {
+  font-weight: normal;
+  font-size: 13px;
+  color: black;
+}
+
+.Info-website {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  color: darkslategrey;
+}
+
+.Info-website:hover {
+  text-decoration: underline;
+}
+
+.Info-buttons {
+  height: 34px;
+  margin: 15px 0 0;
+}
+
+.Info-buttons > a {
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 11px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  width: 90px;
+  font-weight: 700;
+}
+
+.Info-buttons .Info-mailto {
+  margin-right: 17px;
+  background-color: white;
+  color: #374151;
+}
+
+.Info-linkedin {
+  color: white;
+  background-color: #5093e2;
+}
+
+.AboutInterestWrapper {
+  margin-left: 36px;
+  margin-right: 34px;
+  width: 247px;
+  height: 201px;
+  text-align: left;
+}
+
+.AboutInterestWrapper > h3 {
+  color: darkslateblue;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.AboutInterestWrapper > p {
+  font-size: 11.5px;
+  line-height: 150%;
+  color: black;
+}
+
+.About-h3 {
+  margin: 10px 0 0;
+}
+
+.Interests-h3 {
+  margin: 15px 0 0;
+}
+
+.Footer {
+  background-color: oldlace;
+  height: 64px;
+  margin: 24px 0 0;
+  padding: 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Footer-icon {
+  color: #918E9B;
+}
